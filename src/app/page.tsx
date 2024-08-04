@@ -1,9 +1,7 @@
 import { Button } from '@/components/ui/button'
 import Typography from '@/components/ui/typography'
 import Image from 'next/image'
-import Feature from './feature'
 import FeatureImage from './featureImage'
-import {Timer} from 'lucide-react'
 import Link from 'next/link'
 
 export default function Home() {
@@ -14,10 +12,11 @@ export default function Home() {
     >
       <div className="flex flex-col gap-6 items-center">
         <Typography className="max-w-2xl" variant="h1">
-        CreatorZach Starts Here 🚀
+          CreatorZach Starts Here 🚀
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
-          A perfectly curated set of tools for Influencer Managers & Agencies
+          A perfectly curated set of tools for Influencer
+          Managers & Agencies
         </Typography>
         <Link
           href="https://www.linkedin.com/in/winston-m-lao/"
@@ -30,8 +29,8 @@ export default function Home() {
         <Image
           width={1080}
           height={400}
-          alt="CreatorZachIMG2.webp"
-          src="/CreatorZachIMG2.webp"
+          alt="CreatorZachIMG3.webp"
+          src="/CreatorZachIMG3.webp"
         />
       </div>
       <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">
@@ -42,33 +41,27 @@ export default function Home() {
           <div className="flex md:flex-row flex-col gap-12">
             <FeatureImage
               headline="Creator Database 🔭"
-              imagePath='CreatorDatabase.svg'
+              imagePath="CreatorDatabase.svg"
               width={400}
-              height= {300}
+              height={300}
             />
             <FeatureImage
               headline=" Campaign Tools 🎉"
-              imagePath='CampaignManager.svg'
+              imagePath="CampaignManager.svg"
               width={400}
-              height= {300}
+              height={300}
             />
             <FeatureImage
               headline="Client Reporting 💸"
-              imagePath='DealTracking.svg'
+              imagePath="DealTracking.svg"
               width={400}
               height={10}
             />
-            <Feature
-              icon={<Timer size={24} />}
-              headline="Fix emergencies fast"
-              description="Save 20-30 minutes per on-call ticket - no more searching for relevant issues and runbooks"
-            />
-
           </div>
         </div>
         <div className="flex flex-col gap-6 items-center">
           <Typography className="max-w-2xl" variant="h1">
-            {"Lets Build The Future 🔥❤️"}
+            {'Lets Build The Future 🔥❤️'}
           </Typography>
           <div>Book a demo, or hop on a call</div>
           <Link

@@ -9,8 +9,7 @@ import { Analytics } from '@vercel/analytics/react'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title:
-    'CreatorZach - Creator Business Starts Here',
+  title: 'CreatorZach - Creator Business Starts Here',
   description:
     'A perfectly curated set of tools for Influencer Managers & Agencies',
   openGraph: {
@@ -18,8 +17,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title:
-      'CreatorZach - Creator Business Starts Here',
+    title: 'CreatorZach - Creator Business Starts Here',
     description:
       'A perfectly curated set of tools for Influencer Managers & Agencies',
     images: ['https://i.imgur.com/MPMcyPP.png']

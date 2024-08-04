@@ -3,10 +3,10 @@ import Typography from '@components/ui/typography'
 import Image from 'next/image'
 
 interface FeatureImageProps {
-    imagePath:string
-    headline: string
-    width:number
-    height:number
+  imagePath: string
+  headline: string
+  width: number
+  height: number
 }
 
 const FeatureImage: React.FC<FeatureImageProps> = ({
@@ -22,11 +22,11 @@ const FeatureImage: React.FC<FeatureImageProps> = ({
     >
       <Typography variant="h3">{headline}</Typography>
       <Image
-          width={width}
-          height={height}
-          alt={imagePath}
-          src={imagePath}
-        />
+        width={width}
+        height={height}
+        alt={imagePath}
+        src={imagePath}
+      />
     </div>
   )
 }

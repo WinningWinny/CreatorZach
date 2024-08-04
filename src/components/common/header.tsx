@@ -20,7 +20,7 @@ export function Header({ className }: SidebarProps) {
   const pathname = usePathname()
   const items = [
     {
-      href: "https://www.linkedin.com/in/winston-m-lao/",
+      href: 'https://www.linkedin.com/in/winston-m-lao/',
       title: 'Book a demo',
       openInNewTab: true
     }
