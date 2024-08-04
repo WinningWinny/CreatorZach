@@ -3,7 +3,7 @@ import Typography from '@/components/ui/typography'
 import Image from 'next/image'
 import Feature from './feature'
 import FeatureImage from './featureImage'
-import { ArrowUpDown, Timer, Workflow } from 'lucide-react'
+import {Timer} from 'lucide-react'
 import Link from 'next/link'
 
 export default function Home() {
@@ -28,10 +28,10 @@ export default function Home() {
           </Button>
         </Link>
         <Image
-          width={720}
-          height={40}
-          alt="CreatorZachIMG.webp"
-          src="/CreatorZachIMG.webp"
+          width={1080}
+          height={400}
+          alt="CreatorZachIMG2.webp"
+          src="/CreatorZachIMG2.webp"
         />
       </div>
       <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">
@@ -58,11 +58,17 @@ export default function Home() {
               width={400}
               height={10}
             />
+            <Feature
+              icon={<Timer size={24} />}
+              headline="Fix emergencies fast"
+              description="Save 20-30 minutes per on-call ticket - no more searching for relevant issues and runbooks"
+            />
+
           </div>
         </div>
         <div className="flex flex-col gap-6 items-center">
           <Typography className="max-w-2xl" variant="h1">
-            Let's Build The Future 🔥❤️
+            {"Lets Build The Future 🔥❤️"}
           </Typography>
           <div>Book a demo, or hop on a call</div>
           <Link
